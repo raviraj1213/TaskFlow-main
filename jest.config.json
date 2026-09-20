@@ -1,0 +1,12 @@
+{
+  "testEnvironment": "node",
+  "coverageDirectory": "coverage",
+  "collectCoverageFrom": [
+    "backend/src/**/*.js",
+    "!backend/src/app.js"
+  ],
+  "testMatch": [
+    "**/tests/**/*.test.js"
+  ],
+  "verbose": true
+}
